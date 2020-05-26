@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- modal area -->
+    <h2 class="bg-danger text-white text-center pb-4 pt-3">Modal Demo</h2>
+    <div class="container text-center mt-5">
+        <!-- modal open button -->
+        <button class="open_btn btn btn-danger" data-modal-target="#signUp">Sign Up</button>
+        <!-- modal open button -->
+    </div>
+    
+    
+    <!-- modal wrapper -->
+    <div class="modal_wrap alert-success p-5 text-center" id="signUp">
+        <!-- modal close button -->
+        <button class="close_btn" data-close-btn="#signUp">&times;</button>
+        <!-- modal close button -->
+        <div class="modal_body">
+            <form action="#">
+                <input type="text" placeholder="Email" class="form-control">
+                <input type="password" placeholder="Password" class="form-control mt-4 w-100">
+                <button class="btn btn-primary mt-4 w-100">Sign Up</button>
+            </form>
+        </div>        
+    </div>
+    <!-- modal wrapper -->
+    
+    <!-- you just need to paste one overlay for all the modal you use -->
+    <div class="mod_overlay"></div>
+    
+    <!-- modal area -->
+
+    <!-- hover me area -->
+    <h2 class="text-center text-white bg-danger mt-5 pb-4 pt-3">Hover Me</h2>
+    <div class="container text-center">
+        <button class="btn btn-primary" data-hover-target="#oneHov">ONE</button>
+        <button class="btn btn-primary" data-hover-target="#twoHov">TWO</button>
+        <button class="btn btn-primary" data-hover-target="#threeHov">THREE</button>
+        <button class="btn btn-primary" data-hover-target="#fourHov">FOUR</button>
+
+        <!-- items that will active by hovering their trigger -->
+        <h1 id="oneHov" class="heading heading1">Hello there One</h1>
+        <h1 id="twoHov" class="heading heading2">Hello there Two</h1>
+        <h1 id="threeHov" class="heading heading3">Hello there Three</h1>
+        <h1 id="fourHov" class="heading heading4">Hello there Four</h1>
+    </div>
+    <!-- hover me area -->
+
+
+    <!-- dropdown button wrapper -->
+    
+    <!-- dropdown button wrapper -->
+
+
+
+
+
+
+
+    
+
+
+
+    <script src="js/js-packet.js"></script>
+</body>
+</html>
